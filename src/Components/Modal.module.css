@@ -1,0 +1,91 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentdiv{
+    background: white;
+	height: 33%;
+	width: 35%;
+	margin: auto;
+	padding: 2%;
+    border-radius: 5px;
+}
+
+.grpheading{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.grpname {
+    border-radius: 10px;
+    border: 1px #cfcece solid;
+    padding: 5px 11px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+label{
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 0.75rem;
+}
+.colorSection{
+    display: inline-block;
+}
+.colordivs{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.violet{
+    background-color:#b38bfa;
+}
+
+.pink{
+    background-color: #fe78f2;
+}
+
+.skyblue{
+    background-color: #43e7fd;
+}
+
+.brown{
+    background-color: #f09577;
+}
+
+.darkblue{
+    background-color: #0046fe;
+}
+
+.mildblue{
+    background-color: #6691ff;
+}
+
+.createDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.createbtn{
+    background-color: #001e8a;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 2px 27px;
+    cursor: pointer;
+}

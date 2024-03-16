@@ -1,0 +1,63 @@
+.container{
+    width:30%;
+    height: 100vh;
+}
+
+.leftContainer{
+    height: 100vh;
+    width: 100%;
+}
+
+.heading{
+    height:16%;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    position: sticky;
+    top:30px;
+}
+
+.noteContainer{
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.plusbtn{
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: #16008b;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    position: sticky;
+    top: 510px;
+    left: 270px;
+    cursor: pointer;
+}
+
+.parentDiv{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    height: 60px;
+    border-radius: 7px;
+}
+.selected{
+    background-color: #dddddc;
+}
+.initialsDiv{
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding-top: 20px;
+    text-align: center;
+    width: 18%;
+}
+
+.title{
+    align-self: center;
+    font-weight: 500;
+}

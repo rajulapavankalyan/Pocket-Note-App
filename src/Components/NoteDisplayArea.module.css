@@ -1,0 +1,78 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+}
+.header{
+    color: #FFFFFF;
+    background-color: #011f8a;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    height: 80px;
+}
+.arrow{
+    align-self: center;
+    display: none;
+}
+
+.noteLogoDiv{
+    border-radius: 50%;
+    padding-top: 20px;
+    text-align: center;
+    width: 8%;
+}
+.noteTitle{
+    align-self: center;
+    font-weight: 500;
+}
+
+.contentDiv{
+    height: 400px;
+    background-color: #dbe5f4;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAE5F5;
+    position: relative;
+}
+
+.entryPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.NotesHeading{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.para{
+    color: #292929;
+    max-width: 55%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+}
+
+.encryption{
+    position: absolute;
+    bottom: 10px;
+
+}
+.textencrypted{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+}
