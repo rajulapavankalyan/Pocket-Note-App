@@ -89,3 +89,21 @@ label{
     padding: 2px 27px;
     cursor: pointer;
 }
+@media only screen and (max-width:480px) {
+    .contentdiv{
+        width:90%;
+    }
+    .grpname{
+        width:50%;
+    }
+    .colorSection{
+        width: 55%;
+    }
+    .createDiv{
+        justify-content: center;
+    }
+    .createbtn{
+        width: 50%;
+        padding: 5px;
+    }
+}

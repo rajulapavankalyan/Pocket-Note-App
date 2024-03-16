@@ -15,6 +15,7 @@
 }
 .arrow{
     align-self: center;
+    cursor: pointer;
     display: none;
 }
 
@@ -32,6 +33,53 @@
 .contentDiv{
     height: 400px;
     background-color: #dbe5f4;
+    overflow-y:scroll;
+}
+
+.displayArea{
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 20px;
+}
+.mssge{
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+   
+}
+
+.date{
+    color: #353535;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+}
+.footerBox{
+    position: relative;
+    height: 23.3%;
+    width: 100%;
+    background-color: #011f8a;
+    border-bottom-left-radius: 10px;
+}
+.TextArea{
+    position: relative;
+    font-size: 18px;
+    border-radius: 8px;
+    top: 17px;
+    left: 30px;
+    width: 95%;
+    height: 17.4vh;
+    padding: 10px;
+    resize: none;
+}
+
+.sendbtn {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    height: 20px;
+    cursor: pointer;
 }
 
 .rightContainer{
@@ -76,3 +124,34 @@
     letter-spacing: 0.02em;
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+    .mainContainer{
+      width: 100vw;
+      position: absolute;
+      top: 0;
+    }
+    .footerBox{
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+    }
+    .arrow {
+      display: block;
+    }
+    .TextArea{
+        font-size: 16px;
+        width: 80%;
+    }
+    .textDiv{
+        padding-left: 0px;
+        padding-right:20px;
+    }
+    .sendbtn {
+        bottom: 31px;
+        right: 81px;
+    }
+    .rightContainer{
+        display: none;
+    }
+  }
